@@ -7,32 +7,32 @@
 
 #index-navbarbrand
 {
-    color: #2CD4A7;
+    color: #6495ED;
 }
 
 #portfolio-navbarbrand
 {
-    color: #2FDEDB;
+    color: #6495ED;
 }
 
 #about-navbarbrand
 {
-    color: #33C6B8;
+    color: #6495ED;
 }
 
 #index-nav-link:hover
 {
-    background-color: #2CD4A7;
+    background-color: #6495ED;
 }
 
 #portfolio-nav-link:hover
 {
-    background-color: #2FDEDB;
+    background-color: #6495ED;
 }
 
 #about-nav-link:hover
 {
-    background-color: #33C6B8;
+    background-color: #6495ED;
 }
 
 .title-color
@@ -44,17 +44,17 @@
 
 #index-title
 {
-    background-color: #2CD4A7;
+    background-color: #6495ED;
 }
 
 #portfolio-title
 {
-    background-color: #2FDEDB;
+    background-color: #6495ED;
 }
 
 #about-title
 {
-    background-color: #33C6B8;
+    background-color: #6495ED;
 }
 
 .container
@@ -118,7 +118,7 @@
 
 .index-header
 {
-    color: #2CD4A7;
+    color: #6495ED;
     font-weight: bold;
     margin-bottom: 40px;
     padding: 10px;
@@ -127,7 +127,7 @@
 .index-btn
 {
     margin: 10px 0 10px 0;
-    background-color: #2CD4A7;
+    background-color: #6495ED;
     color: #FFFFFF;
     padding: 5px 0 5px 0;
 }
@@ -142,7 +142,7 @@
 .index-link:hover
 {
     text-decoration: none;
-    color: #2CD4A7;
+    color: #6495ED;
 }
 
 .index-img
@@ -163,13 +163,13 @@
 
 .title-link
 {
-    color: #2FDEDB;
+    color: #6495ED;
 }
 
 .title-link:hover
 {
     text-decoration: none;
-    color: #2FDEDB;
+    color: #6495ED;
 }
 
 .col-md-5
@@ -191,13 +191,13 @@
 .bold
 {
     font-weight: bold;
-    color: #2FDEDB;
+    color: #6495ED;
 }
 
 .portfolio-img
 {
     width: 100%;
-    height: 100%;
+    height: 450px;
     border: 2px solid rgba(0,0,0,0.5);
     padding: 5px 5px 5px 5px;
 }
@@ -210,7 +210,7 @@
 .portfolio-btn
 {
     margin: 10px 0 10px 0;
-    background-color: #2FDEDB;
+    background-color: #6495ED;
     color: #FFFFFF;
 }
 
@@ -222,7 +222,7 @@
 
 .about-header
 {
-    color: #33C6B8;
+    color: #6495ED;
     font-weight: bold;
 }
 
@@ -241,7 +241,7 @@
     content: '';
     position: absolute;
     width: 6px;
-    background-color: #33C6B8;
+    background-color: #6495ED;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -289,9 +289,9 @@
   width: 0;
   z-index: 5;
   right: 30px;
-  border: medium solid #33C6B8;
+  border: medium solid #6495ED;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #33C6B8;
+  border-color: transparent transparent transparent #6495ED;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -303,9 +303,9 @@
   width: 0;
   z-index: 5;
   left: 30px;
-  border: medium solid #33C6B8;
+  border: medium solid #6495ED;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #33C6B8 transparent transparent;
+  border-color: transparent #6495ED transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -318,7 +318,7 @@
   padding: 20px 30px;
   background-color: white;
   position: relative;
-  border: 2px solid #33C6B8;
+  border: 2px solid #6495ED;
   border-radius: 6px;
 }
 
@@ -340,9 +340,9 @@
 /* Make sure that all arrows are pointing leftwards */
 .container-timeline::before {
   left: 60px;
-  border: medium solid #33C6B8;
+  border: medium solid #6495ED;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #33C6B8 transparent transparent;
+  border-color: transparent #6495ED transparent transparent;
 }
 
 /* Make sure all circles are at the same spot */
@@ -373,7 +373,7 @@ hr {
 
 h2.about-header
 {
-    color: #33C6B8;
+    color: #6495ED;
 }
 
 .about-row

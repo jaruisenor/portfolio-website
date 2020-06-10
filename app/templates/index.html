@@ -1,0 +1,53 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+
+    <section class="home-content">
+        <div class="container p-0">
+            <div class="row portfolio-row justify-content-center">
+                <div class="col-12 col-md-5">
+                    <div class="row justify-content-center">
+                        <div class="text-center">
+                            <h2 class="index-header">Last Project</h2>
+                            <h6 class = "row index-img">COVID-19 Chile Web App using dash-plotly framework</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a target="_blank" href="https://github.com/jaruisenor/COVID-19_App">
+                            <img class="portfolio-img" src="/static/img/App.png">
+                        </a>
+                    </div>
+                    <div class="index-bottom text-center">
+                        <p>
+                            <a class="about-link" href="/portfolio">Here</a> you can find my other projects.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5">
+                    <div class="row justify-content-center">
+                        <div class="text-center">
+                            <h2 class="index-header">Last Course Taken</h2>
+                            <h6 class = "row index-img"> Coursera Sequence Models: Deeplearning.ai</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <a target="_blank" href="https://www.coursera.org/learn/nlp-sequence-models">
+                            <img class="portfolio-img" src="/static/img/sequencemodels.png">
+                        </a>
+                    </div>
+                    <div class="index-bottom text-center">
+                        <p>
+                            Und <a class="about-link" href="/about">Here</a> is a general description of the courses I have taken.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
